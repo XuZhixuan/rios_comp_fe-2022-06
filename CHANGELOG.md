@@ -12,6 +12,8 @@ Change history of RIOS-Lab Contest frontend projec.
 - MIT License
 - Editor config file
 - Prettier lint config file
+- Bootstrap-Vue component library
+- Fontawesome icon library
 
 ### Changed
 
