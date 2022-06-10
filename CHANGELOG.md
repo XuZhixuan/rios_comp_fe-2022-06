@@ -4,6 +4,15 @@ Change history of RIOS-Lab Contest frontend projec.
 
 ## [Unreleased]
 
+## [0.1.1] - 2022-06-10
+
+### Added
+
+- Header component
+- Footer component
+- Fontawesome Brands library
+- Some QR codes
+
 ## [0.1.0] - 2022-06-10
 
 ### Added
