@@ -10,6 +10,7 @@ Change history of RIOS-Lab Contest frontend projec.
 
 - About view & its content
 - More view frameworks
+- New routes
 
 ## [0.2.0] - 2022-06-11
 
