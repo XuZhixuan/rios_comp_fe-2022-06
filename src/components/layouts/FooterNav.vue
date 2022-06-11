@@ -5,13 +5,14 @@
         <b-col md="8">
           <b-nav>
             <b-nav-item to="/">Home</b-nav-item>
-            <b-nav-item to="#">Overview</b-nav-item>
+            <b-nav-item to="/about">Overview</b-nav-item>
             <b-nav-item to="#">Notice</b-nav-item>
             <b-nav-item to="#">News</b-nav-item>
             <b-nav-item to="#">FAQs</b-nav-item>
             <b-nav-item to="#">Downloads</b-nav-item>
             <b-nav-item to="#">Contact Us</b-nav-item>
           </b-nav>
+          <br />
           <ul style="padding-left: 1rem">
             <li>
               <p><font-awesome-icon icon="clock" /> 09:00-11:30 13:30-18:00, Monday to Friday</p>

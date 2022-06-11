@@ -4,5 +4,9 @@ export default [
   {
     path: '/',
     component: Home
+  },
+  {
+    path: '/about',
+    component: () => import('@/views/AboutView')
   }
 ];

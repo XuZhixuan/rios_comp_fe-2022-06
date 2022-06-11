@@ -13,7 +13,7 @@
         </b-navbar-toggle>
         <b-collapse id="header-nav" is-nav>
           <b-navbar-nav class="ml-auto">
-            <b-nav-item to="#">Overview</b-nav-item>
+            <b-nav-item to="/about">Overview</b-nav-item>
             <b-nav-item to="#">Notice</b-nav-item>
             <b-nav-item to="#">News</b-nav-item>
             <b-nav-item to="#">FAQs</b-nav-item>

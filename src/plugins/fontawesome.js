@@ -14,10 +14,27 @@ import {
   faStarHalfStroke,
   faAward,
   faQuestionCircle,
-  faMessage
+  faMessage,
+  faBars
 } from '@fortawesome/free-solid-svg-icons';
 import { faWeixin, faQq, faWeibo } from '@fortawesome/free-brands-svg-icons';
 
-library.add([faAngleDown, faAngleUp, faClock, faEnvelope, faBullhorn, faSignIn, faMicrochip, faStarHalfStroke, faAward, faQuestionCircle, faMessage, faWeixin, faQq, faWeibo]);
+library.add([
+  faAngleDown,
+  faAngleUp,
+  faClock,
+  faEnvelope,
+  faBullhorn,
+  faSignIn,
+  faMicrochip,
+  faStarHalfStroke,
+  faAward,
+  faQuestionCircle,
+  faMessage,
+  faBars,
+  faWeixin,
+  faQq,
+  faWeibo
+]);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
