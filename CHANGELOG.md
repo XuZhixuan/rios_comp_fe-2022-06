@@ -4,6 +4,14 @@ Change history of RIOS-Lab Contest frontend projec.
 
 ## [Unreleased]
 
+## [0.2.0] - 2022-06-11
+
+### Added
+
+- Home view and its components
+- Sponsors logo
+- Temp banner
+
 ## [0.1.1] - 2022-06-10
 
 ### Added

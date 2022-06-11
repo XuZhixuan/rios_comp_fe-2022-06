@@ -15,7 +15,8 @@
           <b-navbar-nav class="ml-auto">
             <b-nav-item to="#">Overview</b-nav-item>
             <b-nav-item to="#">Notice</b-nav-item>
-            <b-nav-item to="#">Q & A</b-nav-item>
+            <b-nav-item to="#">News</b-nav-item>
+            <b-nav-item to="#">FAQs</b-nav-item>
             <b-nav-item to="#">Downloads</b-nav-item>
             <b-nav-item to="#">Contact Us</b-nav-item>
           </b-navbar-nav>
