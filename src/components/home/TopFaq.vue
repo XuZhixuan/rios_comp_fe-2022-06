@@ -26,7 +26,7 @@ export default {
   data() {
     return {
       questions: [
-        { id: 0, question: 'How can I participate this contest?', answer: 'Click the link to sign up.' },
+        { id: 0, question: 'How can I participate this Competition?', answer: 'Click the link to sign up.' },
         { id: 1, question: 'How can I find myself a team?', answer: 'Good question, I have no idea.' }
       ]
     };

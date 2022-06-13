@@ -5,16 +5,17 @@
     </b-button>
     <b-sidebar id="about-nav" title="About the Contest" shadow>
       <b-nav vertical>
-        <b-nav-item href="#section-1">1. Motivation and Background</b-nav-item>
-        <b-nav-item href="#section-2">2. Contest schedule and targeted participants</b-nav-item>
-        <b-nav-item href="#section-3">3. Original Proposed Competition Ideas</b-nav-item>
-        <b-nav-item href="#section-4">4. Competition Mode</b-nav-item>
-        <b-nav-item href="#section-4-1">4.1 Group Stage</b-nav-item>
-        <b-nav-item href="#section-4-2">4.2 Final Stage</b-nav-item>
+        <b-nav-item @click="goto('section-1')">1. Motivation and Background</b-nav-item>
+        <b-nav-item @click="goto('section-2')">2. Contest schedule and targeted participants</b-nav-item>
+        <b-nav-item @click="goto('section-3')">3. Original Proposed Competition Ideas</b-nav-item>
+        <b-nav-item @click="goto('section-4')">4. Competition Mode</b-nav-item>
+        <b-nav-item @click="goto('section-4-1')">4.1 Group Stage</b-nav-item>
+        <b-nav-item @click="goto('section-4-2')">4.2 Final Stage</b-nav-item>
+        <b-nav-item @click="goto('title')">Top</b-nav-item>
       </b-nav>
     </b-sidebar>
     <b-container>
-      <h3 style="text-align: center; margin: 3rem 0">About the Contest</h3>
+      <h3 id="title" style="text-align: center; margin: 3rem 0">About the Contest</h3>
       <div class="intro-text">
         <h5 id="section-1">1. Motivation and Background</h5>
         <p>
@@ -25,10 +26,10 @@
           and the growth of our industry.<br />
           Unfortunately, with high-tech economy growth centered upon internet applications in the past decade, students majoring in electrical engineering and computer science were
           more leaning towards software and algorithm focused courses like AI and ML than computer architecture/systems and chip design. The imbalance of training makes building a
-          “‘talent bank” with skills in semiconductor and chip design more challenging. This gap in return could hurt companies even in emerging markets going deeper into AI and
-          ML. Moreover, Covid-19 has accelerated the digital transformation of all aspects of our society. The pandemic and geopolitical conflicts have created a global chip
-          shortage and highlighted the risks and vulnerabilities in the semiconductor supply chain globally. Students graduating from universities are starting to realize that
-          “digital companies cannot exist without chips”.<br />
+          “talent bank” with skills in semiconductor and chip design more challenging. This gap in return could hurt companies even in emerging markets going deeper into AI and ML.
+          Moreover, Covid-19 has accelerated the digital transformation of all aspects of our society. The pandemic and geopolitical conflicts have created a global chip shortage
+          and highlighted the risks and vulnerabilities in the semiconductor supply chain globally. Students graduating from universities are starting to realize that “digital
+          companies cannot exist without chips”.<br />
           Student competitions provide an immersive experience as part of the education experience. Having an element of competition enhances interest and concentration. CPU core
           design contests have been sponsored by companies in industry and academia to encourage innovations as well as part of extracurricular training programs. Most of these
           competitions are based on designing RISC based processors such as RISC-V and MIPS on off-the-shelf FPGA boards. Thus far, none of these contests go through the full
@@ -101,7 +102,14 @@
 
 <script>
 export default {
-  name: 'AboutView'
+  name: 'AboutView',
+  methods: {
+    goto(id) {
+      document.getElementById(id).scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  }
 };
 </script>
 
@@ -110,6 +118,7 @@ export default {
   position: fixed;
   left: 2rem;
   bottom: 5rem;
+  z-index: 999;
 }
 
 .intro-text {

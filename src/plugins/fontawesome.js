@@ -15,7 +15,11 @@ import {
   faAward,
   faQuestionCircle,
   faMessage,
-  faBars
+  faBars,
+  faCircleInfo,
+  faPeopleGroup,
+  faListOl,
+  faTrophy
 } from '@fortawesome/free-solid-svg-icons';
 import { faWeixin, faQq, faWeibo } from '@fortawesome/free-brands-svg-icons';
 
@@ -32,6 +36,10 @@ library.add([
   faQuestionCircle,
   faMessage,
   faBars,
+  faCircleInfo,
+  faPeopleGroup,
+  faListOl,
+  faTrophy,
   faWeixin,
   faQq,
   faWeibo

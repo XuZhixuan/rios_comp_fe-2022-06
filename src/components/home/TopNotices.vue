@@ -28,7 +28,7 @@ export default {
         ALARM: 'danger'
       },
       items: [
-        { title: 'The 1st RISC-V Chip Design Contest is comming soon.', link: '/', type: 'INFO' },
+        { title: 'The 1st RISC-V Chip Design Competition is comming soon.', link: '/', type: 'INFO' },
         { title: 'Sign up before 2022-13-32.', link: '/', type: 'IMPORTANT' },
         { title: 'Submit your work in 3 days.', link: '/', type: 'ALARM' }
       ]

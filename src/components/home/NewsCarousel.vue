@@ -7,8 +7,6 @@
             <div class="carousel-img" :style="'background: url(' + msg.img + '); background-size: cover; background-position: center'"></div>
           </a>
         </template>
-        <h5 v-if="msg.title">{{ msg.title }}</h5>
-        <p v-if="msg.title">{{ msg.detail }}</p>
       </b-carousel-slide>
     </b-carousel>
   </div>
@@ -22,9 +20,17 @@ export default {
       news: [
         {
           id: 0,
-          img: require('@/assets/temp/banner1.jpg'),
-          title: null,
-          detail: null,
+          img: require('@/assets/temp/banner4.png'),
+          link: '/about'
+        },
+        {
+          id: 1,
+          img: require('@/assets/temp/banner2.png'),
+          link: '#'
+        },
+        {
+          id: 2,
+          img: require('@/assets/temp/banner3.png'),
           link: '#'
         }
       ]

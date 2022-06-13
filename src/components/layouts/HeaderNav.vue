@@ -14,7 +14,7 @@
         <b-collapse id="header-nav" is-nav>
           <b-navbar-nav class="ml-auto">
             <b-nav-item to="/about">Overview</b-nav-item>
-            <b-nav-item to="#">Notice</b-nav-item>
+            <b-nav-item to="#">Notices</b-nav-item>
             <b-nav-item to="#">News</b-nav-item>
             <b-nav-item to="#">FAQs</b-nav-item>
             <b-nav-item to="#">Downloads</b-nav-item>

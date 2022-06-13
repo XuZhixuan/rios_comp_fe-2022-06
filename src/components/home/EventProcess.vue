@@ -10,7 +10,7 @@
               <br />
               Announcement
             </template>
-            <p>Announcing the contest</p>
+            <p>Announcing the Competition</p>
           </b-tab>
           <b-tab>
             <template #title>
@@ -18,7 +18,7 @@
               <br />
               Sign Up
             </template>
-            <p>Announcing the contest</p>
+            <p>Announcing the Competition</p>
           </b-tab>
           <b-tab>
             <template #title>
@@ -26,7 +26,7 @@
               <br />
               Working
             </template>
-            <p>Announcing the contest</p>
+            <p>Announcing the Competition</p>
           </b-tab>
           <b-tab>
             <template #title>
@@ -34,7 +34,7 @@
               <br />
               Review
             </template>
-            <p>Announcing the contest</p>
+            <p>Announcing the Competition</p>
           </b-tab>
           <b-tab>
             <template #title>
@@ -42,7 +42,7 @@
               <br />
               Awards
             </template>
-            <p>Announcing the contest</p>
+            <p>Announcing the Competition</p>
           </b-tab>
         </b-tabs>
       </b-card>
