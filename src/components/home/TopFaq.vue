@@ -15,7 +15,7 @@
         </b-card>
       </b-card-group>
       <br />
-      <b-link to="#">More Questions...</b-link>
+      <b-link to="/questions">More Questions...</b-link>
     </b-container>
   </div>
 </template>

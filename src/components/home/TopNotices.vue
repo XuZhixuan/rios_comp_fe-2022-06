@@ -10,7 +10,7 @@
           <b-badge :variant="badgeRef[item.type]">{{ item.type }}</b-badge>
         </b-list-group-item>
         <b-list-group-item>
-          <b-link to="#">More...</b-link>
+          <b-link to="/notices">More...</b-link>
         </b-list-group-item>
       </b-list-group>
     </b-container>

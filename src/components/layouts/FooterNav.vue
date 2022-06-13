@@ -1,14 +1,15 @@
 <template>
   <footer class="footer-nav">
     <b-container>
+      <br />
       <b-row>
         <b-col md="8">
           <b-nav>
             <b-nav-item to="/">Home</b-nav-item>
             <b-nav-item to="/about">Overview</b-nav-item>
-            <b-nav-item to="#">Notices</b-nav-item>
-            <b-nav-item to="#">News</b-nav-item>
-            <b-nav-item to="#">FAQs</b-nav-item>
+            <b-nav-item to="/notices">Notices</b-nav-item>
+            <b-nav-item to="/news">News</b-nav-item>
+            <b-nav-item to="/questions">FAQs</b-nav-item>
             <b-nav-item to="#">Downloads</b-nav-item>
             <b-nav-item to="#">Contact Us</b-nav-item>
           </b-nav>

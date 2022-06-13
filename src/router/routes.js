@@ -48,7 +48,7 @@ export default [
     ]
   },
   {
-    path: '/qustions',
+    path: '/questions',
     component: Question,
     children: [
       {
