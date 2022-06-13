@@ -11,11 +11,6 @@
         <b-nav-item href="#section-4">4. Competition Mode</b-nav-item>
         <b-nav-item href="#section-4-1">4.1 Group Stage</b-nav-item>
         <b-nav-item href="#section-4-2">4.2 Final Stage</b-nav-item>
-        <b-nav-item href="#section-5">5. More details on PPA judging rules</b-nav-item>
-        <b-nav-item href="#section-6">6. Building an SoC Chassis hardware for evaluation and design qualification</b-nav-item>
-        <b-nav-item href="#section-7">7. Organizing Committee</b-nav-item>
-        <b-nav-item href="#section-8">8. Advisory Committee</b-nav-item>
-        <b-nav-item href="#section-9">9. Acknowledgement</b-nav-item>
       </b-nav>
     </b-sidebar>
     <b-container>
@@ -99,44 +94,6 @@
           will host a two-day judge and presentation event. Each team will help the judge to reproduce their results on their final silicon. All designs should still be open
           source, and should be reproducible by everyone.
         </p>
-
-        <h5 id="section-5">5. More details on PPA (QoR) judging rules</h5>
-        <p>We will score each design with all in the following list to test various aspects of the design quality and performance. We will use the Embench in every scenario.</p>
-        <ul>
-          <li>
-            Absolute performance: Running the design at the highest clock frequency each design can reliably achieve without an exotic cooling system. Passive cooling and no heat
-            sink only.
-          </li>
-          <li>Performance per watt: Embench score per watt consumed. Power will be measured at the system level.</li>
-          <li>Performance per area: Highest embench score divided by the total silicon area.</li>
-        </ul>
-
-        <h5 id="section-6">6. Building an SoC Chassis hardware for evaluation and design qualification</h5>
-        <p>
-          Besides the competition processor design, I/Os and especially the DRAM controller are essential for the final bring-up. Working with our industry partners, we will
-          provide a unified SoC chassis that will host all final designs.
-        </p>
-
-        <h5 id="section-7">7. Organizing Committee</h5>
-        <ul>
-          <li>Zhangxi Tan, RIOS Lab, Tsinghua-Berkeley Shenzhen Institute, Tsinghua University</li>
-          <li>Johan Euphrosine, Google</li>
-          <li>Shang Lu, Bytedance</li>
-          <li>Robert Owen, Imagination</li>
-          <li>Wenguang Chen, Department of Computer Science and technology, Tsinghua University</li>
-        </ul>
-        <h5 id="section-8">8. Advisory Committee</h5>
-        <ul>
-          <li>David Patterson RIOS Lab / UC Berkeley</li>
-          <li>Tim Ansell Google</li>
-          <li>Weimin Zheng, Tsinghua University</li>
-        </ul>
-        <h5 id="section-9">9. Acknowledgement</h5>
-        <ul>
-          <li>Ray Simar, Rice University</li>
-          <li>Mike Yan, Meituan</li>
-          <li>Bryan Casper, Intel</li>
-        </ul>
       </div>
     </b-container>
   </div>
