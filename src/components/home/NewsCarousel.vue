@@ -22,19 +22,26 @@ export default {
           id: 0,
           img: require('@/assets/temp/banner4.png'),
           link: '/about'
-        },
-        {
-          id: 1,
-          img: require('@/assets/temp/banner2.png'),
-          link: '#'
-        },
-        {
-          id: 2,
-          img: require('@/assets/temp/banner3.png'),
-          link: '#'
         }
       ]
     };
+  },
+  methods: {
+    getData() {
+      let vm = this;
+      vm.$apis('newsIndex', { queries: { page: 1, perPage: 3 } }).then((res) => {
+        res.data.data.forEach((n) => {
+          vm.news.push({
+            id: n.id,
+            img: n.cover,
+            link: '/news/' + n.id
+          });
+        });
+      });
+    }
+  },
+  mounted() {
+    this.getData();
   }
 };
 </script>

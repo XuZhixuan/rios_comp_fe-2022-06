@@ -2,7 +2,9 @@
   <div>
     <!-- Place Hodling -->
     <p>Place Holding</p>
-    <router-view />
+    <b-container>
+      <router-view />
+    </b-container>
   </div>
 </template>
 

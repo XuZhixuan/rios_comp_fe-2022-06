@@ -21,7 +21,7 @@ export default {
   name: 'SponsorsList',
   data() {
     return {
-      sponsors1: [require('@/assets/logos/logo_google.svg'), require('@/assets/logos/logo_ve.svg'), require('@/assets/logos/logo_img.svg')],
+      sponsors1: [require('@/assets/logos/logo_google.svg'), require('@/assets/logos/logo_ve.svg')],
       sponsors2: [require('@/assets/logos/logo_thu.png'), require('@/assets/logos/logo_berkeley.png'), require('@/assets/logos/logo_rios.png')]
     };
   }

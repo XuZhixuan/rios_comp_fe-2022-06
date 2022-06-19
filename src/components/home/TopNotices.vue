@@ -4,7 +4,7 @@
       <h3 style="text-align: center">NOTICES</h3>
       <b-list-group flush>
         <b-list-group-item class="d-flex justify-content-between align-items-center" v-for="(item, id) in items" :key="id">
-          <b-link class="notice-link" :to="item.link">
+          <b-link class="notice-link" :to="{ name: 'noticeShow', params: { id: item.id } }">
             {{ item.title }}
             <br />
             <span style="color: #6c757d">{{ item.date }}</span>
@@ -29,12 +29,22 @@ export default {
         IMPORTANT: 'warning',
         ALARM: 'danger'
       },
-      items: [
-        { title: 'The 1st RISC-V Chip Design Competition is comming soon.', date: '2022-13-32', link: '/', type: 'INFO' },
-        { title: 'Sign up before 2022-13-32.', date: '2022-13-32', link: '/', type: 'IMPORTANT' },
-        { title: 'Submit your work in 3 days.', date: '2022-13-32', link: '/', type: 'ALARM' }
-      ]
+      items: []
     };
+  },
+  methods: {
+    getData() {
+      let vm = this;
+      this.$apis('noticesIndex', { queries: { page: 1, perPage: 10 } }).then((res) => {
+        let data = res.data.data;
+        data.forEach((notice) => {
+          vm.items.push(notice);
+        });
+      });
+    }
+  },
+  mounted() {
+    this.getData();
   }
 };
 </script>

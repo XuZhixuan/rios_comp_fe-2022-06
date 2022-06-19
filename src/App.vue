@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div id="error-modal" />
     <header-nav />
     <router-view />
     <footer-nav />

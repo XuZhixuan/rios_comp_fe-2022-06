@@ -1,6 +1,7 @@
 import Vue from 'vue';
-import requests from './requests';
+import Apis from './requests';
+import apis from './api';
 
-Vue.use(requests);
+const api = new Apis(apis);
 
-export default requests;
+Vue.use(api);

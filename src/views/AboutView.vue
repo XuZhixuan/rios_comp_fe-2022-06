@@ -109,6 +109,13 @@ export default {
         behavior: 'smooth'
       });
     }
+  },
+  mounted() {
+    if (this.$route.query.to) {
+      this.goto(this.$route.query.to);
+    } else {
+      this.goto('section-1');
+    }
   }
 };
 </script>

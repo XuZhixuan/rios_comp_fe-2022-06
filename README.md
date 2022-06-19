@@ -6,7 +6,7 @@
 
 ### 项目结构
 
-项目源代码位于 `src` 目录中，结构如下  
+项目源代码位于 `src` 目录中，结构如下
 
 ```
 src
@@ -29,19 +29,19 @@ src
 
 ### 技术应用
 
-* 前端采用 Vue.js 2.x 框架
-* Vue-router 与 Vuex 已启用
-* 使用 Bootstrap-Vue 组件库
-* 使用 Fontawesome 免费图标库
-* 使用 Google API 字体服务
+- 前端采用 Vue.js 2.x 框架
+- Vue-router 与 Vuex 已启用
+- 使用 Bootstrap-Vue 组件库
+- 使用 Fontawesome 免费图标库
+- 使用 Google API 字体服务
 
 ## 编译与部署
 
 ### 要求
 
-* node.js 安装
-* yarn/npm 包管理器
-* vue-cli3 (可选)
+- node.js 安装
+- yarn/npm 包管理器
+- vue-cli3 (可选)
 
 ### 安装依赖
 
@@ -58,7 +58,7 @@ src
 
 ## Contributor
 
-* [f(x,z)=xzx](https://github.com/XuZhixuan)
+- [f(x,z)=xzx](https://github.com/XuZhixuan)
 
 ## Changelog
 
