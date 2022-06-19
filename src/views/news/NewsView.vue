@@ -1,7 +1,6 @@
 <template>
   <div>
-    <!-- Place Hodling -->
-    <p>Place Holding</p>
+    <h3>NEWS</h3>
     <router-view />
   </div>
 </template>

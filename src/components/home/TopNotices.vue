@@ -1,11 +1,13 @@
 <template>
   <div class="notice-area">
     <b-container>
-      <h3 style="text-align: center">Notices</h3>
+      <h3 style="text-align: center">NOTICES</h3>
       <b-list-group flush>
         <b-list-group-item class="d-flex justify-content-between align-items-center" v-for="(item, id) in items" :key="id">
           <b-link class="notice-link" :to="item.link">
             {{ item.title }}
+            <br />
+            <span style="color: #6c757d">{{ item.date }}</span>
           </b-link>
           <b-badge :variant="badgeRef[item.type]">{{ item.type }}</b-badge>
         </b-list-group-item>
@@ -23,14 +25,14 @@ export default {
   data() {
     return {
       badgeRef: {
-        INFO: 'info',
+        INFO: 'success',
         IMPORTANT: 'warning',
         ALARM: 'danger'
       },
       items: [
-        { title: 'The 1st RISC-V Chip Design Competition is comming soon.', link: '/', type: 'INFO' },
-        { title: 'Sign up before 2022-13-32.', link: '/', type: 'IMPORTANT' },
-        { title: 'Submit your work in 3 days.', link: '/', type: 'ALARM' }
+        { title: 'The 1st RISC-V Chip Design Competition is comming soon.', date: '2022-13-32', link: '/', type: 'INFO' },
+        { title: 'Sign up before 2022-13-32.', date: '2022-13-32', link: '/', type: 'IMPORTANT' },
+        { title: 'Submit your work in 3 days.', date: '2022-13-32', link: '/', type: 'ALARM' }
       ]
     };
   }

@@ -1,7 +1,7 @@
 <template>
   <header class="header-bar">
     <b-container>
-      <b-navbar toggleable="md">
+      <b-navbar toggleable="lg">
         <b-navbar-brand href="/">
           <b-img style="max-width: 12rem" src="@/assets/logos/logo.png" />
         </b-navbar-brand>
@@ -13,12 +13,12 @@
         </b-navbar-toggle>
         <b-collapse id="header-nav" is-nav>
           <b-navbar-nav class="ml-auto">
-            <b-nav-item to="/about">Overview</b-nav-item>
-            <b-nav-item to="/notices">Notices</b-nav-item>
-            <b-nav-item to="/news">News</b-nav-item>
+            <b-nav-item to="/about">OVERVIEW</b-nav-item>
+            <b-nav-item to="/notices">NOTICES</b-nav-item>
+            <b-nav-item to="/news">NEWS</b-nav-item>
             <b-nav-item to="/questions">FAQs</b-nav-item>
-            <b-nav-item to="#">Downloads</b-nav-item>
-            <b-nav-item to="#">Contact Us</b-nav-item>
+            <b-nav-item to="#">DOWNLOADS</b-nav-item>
+            <b-nav-item to="#">CONTACT US</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>

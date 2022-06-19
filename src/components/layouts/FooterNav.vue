@@ -18,7 +18,7 @@
             <li>
               <p><font-awesome-icon icon="clock" /> 09:00-11:30 13:30-18:00, Monday to Friday</p>
             </li>
-            <li>
+            <!-- <li>
               <p><font-awesome-icon icon="fa-brands fa-weixin" /> Contact info ... 1</p>
             </li>
             <li>
@@ -29,7 +29,7 @@
             </li>
             <li>
               <p><font-awesome-icon icon="envelope" /> Contact info ... 4</p>
-            </li>
+            </li> -->
           </ul>
         </b-col>
         <b-col align-self="center" md="4">

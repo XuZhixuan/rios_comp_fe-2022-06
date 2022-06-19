@@ -1,7 +1,7 @@
 <template>
   <div class="process-area">
     <b-container>
-      <h3 style="text-align: center; margin-bottom: 2rem">Event Process</h3>
+      <h3 style="text-align: center; margin-bottom: 2rem">EVENT PROCESS</h3>
       <b-card no-body>
         <b-tabs content-class="process-info" pills card justified>
           <b-tab>

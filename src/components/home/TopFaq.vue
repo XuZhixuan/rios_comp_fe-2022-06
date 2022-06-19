@@ -1,7 +1,7 @@
 <template>
   <div class="faq-area">
     <b-container>
-      <h3 style="text-align: center">Frequently Asked Questions</h3>
+      <h3 style="text-align: center">FAQ</h3>
       <b-card-group deck>
         <b-card v-for="question in questions" :key="question.id">
           <b-card-text>
