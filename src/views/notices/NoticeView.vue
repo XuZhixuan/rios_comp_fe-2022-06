@@ -1,7 +1,8 @@
 <template>
   <div>
-    <!-- Place Hodling -->
-    <p>Place Holding</p>
+    <div class="banner">
+      <h3 style="text-align: center">NOTICES</h3>
+    </div>
     <b-container>
       <router-view />
     </b-container>
@@ -13,3 +14,11 @@ export default {
   name: 'NoticeView'
 };
 </script>
+
+<style lang="scss" scoped>
+.banner {
+  padding: 5rem;
+  margin-bottom: 3rem;
+  background-color: #e9ecef;
+}
+</style>
