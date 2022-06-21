@@ -55,7 +55,7 @@
               To judge the design, we will use both public open-source benchmarks as well as secret programs announced during the final stage of the competition.
             </b-card-text>
             <p style="text-align: right; font-size: 0.9rem">
-              <b-link :to="{ path: '/about', query: { to: 'section-3' } }">See More...</b-link>
+              <b-link :to="{ path: '/about', query: { to: 'section-4' } }">See More...</b-link>
             </p>
           </b-card>
           <b-card>
@@ -73,7 +73,7 @@
               according to their needs.
             </b-card-text>
             <p style="text-align: right; font-size: 0.9rem">
-              <b-link :to="{ path: '/about', query: { to: 'section-4-2' } }">See More...</b-link>
+              <b-link :to="{ path: '/about', query: { to: 'section-5' } }">See More...</b-link>
             </p>
           </b-card>
         </b-card-group>

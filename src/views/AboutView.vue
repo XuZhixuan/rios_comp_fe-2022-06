@@ -72,7 +72,7 @@
             student questions and review students’ work prior to the submission to assure contest guidelines are followed.
           </li>
         </ul>
-        <h5 id="section-4">4. Competition Mode</h5>
+        <h5 id="section-4">4. Rules</h5>
         <h6 id="section-4-1">4.1 Group Stage (first 9 months)</h6>
         <p>
           Given limited silicon tapeout resources (e.g. silicon manufacturing costs, system hardware resources and commercial ASIC EDA licenses, in particular backend and sign-off
@@ -94,6 +94,15 @@
           the tape-out shuttle. We will provide the standard testboard for all teams to bring-up their silicon. The bring-up time will be 6 weeks before the final presentation. We
           will host a two-day judge and presentation event. Each team will help the judge to reproduce their results on their final silicon. All designs should still be open
           source, and should be reproducible by everyone.
+        </p>
+        <h6 id="section-5">5 Awards</h6>
+        <p>
+          The competition expert group will judge the entries based on the degree of completion, innovation, difficulty, document quality, and tapeout status of the entries.<br />
+          The first prize, the second prize and the third prize will be established in the global finals. Among them, the proportion of winning the first prize shall not exceed 15%
+          of the number of teams participating in the global finals, and the second prize shall not exceed 30%.<br />
+          The global finals also set up 1-3 independent awards such as the Best Creative Award, the Best Engineering Award, and so on, and each independent award can be vacant. In
+          addition, the competition will also set up awards such as the Outstanding Organization Award. The co-organizers can choose their own corporate special awards according to
+          their needs.
         </p>
       </div>
     </b-container>
