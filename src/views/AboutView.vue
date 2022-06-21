@@ -5,44 +5,69 @@
     </b-button>
     <b-sidebar id="about-nav" title="About the Contest" shadow>
       <b-nav vertical>
-        <b-nav-item @click="goto('section-1')">1. Motivation and Background</b-nav-item>
-        <b-nav-item @click="goto('section-2')">2. Contest schedule and targeted participants</b-nav-item>
+        <b-nav-item @click="goto('section-1')">1. Competition Info</b-nav-item>
+        <b-nav-item @click="goto('section-1-1')">1.1 Introduction</b-nav-item>
+        <b-nav-item @click="goto('section-1-2')">1.2 Organizing Committee</b-nav-item>
+        <b-nav-item @click="goto('section-1-3')">1.3 Advisory Committee</b-nav-item>
+        <b-nav-item @click="goto('section-1-4')">1.4 Acknowledgement</b-nav-item>
+        <b-nav-item @click="goto('section-2')">2. Contest schedule and targeted contestants</b-nav-item>
         <b-nav-item @click="goto('section-3')">3. Original Proposed Competition Ideas</b-nav-item>
-        <b-nav-item @click="goto('section-4')">4. Competition Mode</b-nav-item>
+        <b-nav-item @click="goto('section-4')">4. Rules</b-nav-item>
         <b-nav-item @click="goto('section-4-1')">4.1 Group Stage</b-nav-item>
         <b-nav-item @click="goto('section-4-2')">4.2 Final Stage</b-nav-item>
+        <b-nav-item @click="goto('section-5')">5 Awards</b-nav-item>
         <b-nav-item @click="goto('title')">Top</b-nav-item>
       </b-nav>
     </b-sidebar>
     <b-container>
       <h3 id="title" style="text-align: center; margin: 3rem 0">About the Contest</h3>
       <div class="intro-text">
-        <h5 id="section-1">1. Motivation and Background</h5>
+        <h5 id="section-1">1. Competition Info</h5>
+        <h6 id="section-1-1">1.1 Introduction</h6>
         <p>
           The chip design industry has faced significant challenges with Moore’s Law slowing down. Nevertheless, emerging market segments like self-driving electric cars and AI
-          training in the cloud have been driving the demand of building application-specific custom computing hardware, like the Google TPU and the Telsa FSD. With the advent of
-          the RISC-V open instruction set architecture and open source EDA tools, we hope to see more innovative hardware and software co-design ideas by building custom silicon
-          that could run complex software stacks. According to SEMI, the global semiconductor market will be $1 trillion in 2030. Addressing the talent gap is vital for the success
-          and the growth of our industry.<br />
-          Unfortunately, with high-tech economy growth centered upon internet applications in the past decade, students majoring in electrical engineering and computer science were
-          more leaning towards software and algorithm focused courses like AI and ML than computer architecture/systems and chip design. The imbalance of training makes building a
-          “talent bank” with skills in semiconductor and chip design more challenging. This gap in return could hurt companies even in emerging markets going deeper into AI and ML.
-          Moreover, Covid-19 has accelerated the digital transformation of all aspects of our society. The pandemic and geopolitical conflicts have created a global chip shortage
-          and highlighted the risks and vulnerabilities in the semiconductor supply chain globally. Students graduating from universities are starting to realize that “digital
-          companies cannot exist without chips”.<br />
-          Student competitions provide an immersive experience as part of the education experience. Having an element of competition enhances interest and concentration. CPU core
-          design contests have been sponsored by companies in industry and academia to encourage innovations as well as part of extracurricular training programs. Most of these
-          competitions are based on designing RISC based processors such as RISC-V and MIPS on off-the-shelf FPGA boards. Thus far, none of these contests go through the full
-          silicon fabrication process. With the rapid development of the community maintained OpenLane open EDA flow and the Skywater open-source PDK, we could complete the whole
-          process from RTL to GDS using open source technologies and fabricate the design at a real commercial foundry at a reasonable cost. This path will take the competition to
-          a more realistic and inspiring level than prior contests have achieved. We could judge the competition by running real modern benchmarks like Embench (www.embench.org) on
-          real chips that students design.
+          training in the cloud have been driving the demand of building application-specific custom computing hardware, like the Google TPU and the Telsa FSD.<br />
+          With the rapid development of the community maintained OpenLane open EDA flow and the Skywater open-source PDK. we could complete the whole process from RTL to GDS using
+          open source technologies and fabricate the design at a real commercial foundry at a reasonable cost. We could judge the competition by running real modern benchmarks like
+          Embench (www.embench.org) on real chips that students design.<br />
+          For practical reasons, the design contest will initially target a mature process node, such as Google/Skywater 130 nm, UMC 110 nm, or TSMC 130G. Each design team will be
+          given a fixed silicon area (e.g. 10mm^2) to implement RISC-V based systems that support minimum RISC-V extensions to run basic code.<br />
+          Each team will compete against each other in terms of both functionalities (run more programs correctly) and QoR (quality of result measured in PPA, performance, power
+          and area). The contest will not limit the design. <br />
+          To judge the design, we will use both public open-source benchmarks as well as secret programs announced during the final stage of the competition.
         </p>
-        <h5 id="section-2">2. Contest schedule and targeted participants</h5>
+        <h6 id="section-1-2">1.2 Organizing Committee</h6>
+        <p>
+          Zhangxi Tan, RIOS Lab, Tsinghua-Berkeley Shenzhen Institute<br />
+          Johan Euphrosine, Google<br />
+          Shang Lu, Bytedance<br />
+          Robert Owen, Imagination <br />
+          Wenguang Chen, Tsinghua University
+        </p>
+        <h6 id="section-1-3">1.3 Advisory Committee</h6>
+        <p>
+          David Patterson RIOS Lab / UC Berkeley<br />
+          Tim Ansell Google<br />
+          Weimin Zheng, Tsinghua University
+        </p>
+        <h6 id="section-1-4">1.4 Acknowledgement</h6>
+        <p>
+          We thank for valuable feedback from the following experts from both industry and academia on earlier drafts of this proposal.<br />
+          Ray Simar Rice University<br />
+          Mike Yan Meituan<br />
+          Bryan Casper Intel
+        </p>
+        <h5 id="section-2">2. Contest schedule and targeted contestants</h5>
         <p>
           Considering the cycle of manufacturing a chip and system bring-up, each contest requires at least 18 months to get the full chip. However, in order to encourage more
           participants and provide a better match to the academic calendar, we plan to start a new contest every year allowing two back-to-back contests to overlap in a single
-          year.
+          year.<br />
+          The contestants include (but are not limited to) students from global colleges and universities majoring in microelectronics and electronic related majors (electronics,
+          information, computer, automation, electrical, instrumentation, etc.).<br />
+          Undergraduate students and postgraduate students form separate teams, and those with postgraduate students in the team are the postgraduate teams. Each team consists of
+          no more than 6 students and may have no more than 2 instructors. And each team at least has one professor as their instructor.<br />
+          Each participating school shall designate a teacher who leads the competition to undertake the liaison work, organize the registration of students and participating
+          teams, technical training, and ensure the competition venue, equipment and other safeguards.
         </p>
         <h5 id="section-3">3. Original Proposed Competition Ideas</h5>
         <p>
@@ -95,7 +120,7 @@
           will host a two-day judge and presentation event. Each team will help the judge to reproduce their results on their final silicon. All designs should still be open
           source, and should be reproducible by everyone.
         </p>
-        <h6 id="section-5">5 Awards</h6>
+        <h5 id="section-5">5 Awards</h5>
         <p>
           The competition expert group will judge the entries based on the degree of completion, innovation, difficulty, document quality, and tapeout status of the entries.<br />
           The first prize, the second prize and the third prize will be established in the global finals. Among them, the proportion of winning the first prize shall not exceed 15%
