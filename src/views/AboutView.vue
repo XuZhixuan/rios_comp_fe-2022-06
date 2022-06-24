@@ -80,13 +80,6 @@
         </p>
         <ul>
           <li>
-            Although open-source EDA tools have the least restrictions on license availability and are very easy to get started with, technically they might not be sophisticated
-            enough to support complex designs such as Linux-capable CPU from every single process of the full chip design flow. On the other hand, as a by-product of extensively
-            using open-source EDA in the competition, the open EDA community can also gain a large number of test cases to improve the development of the tools. We will balance the
-            use of open-source EDA tools and commercial EDA tools (for tape-outs with mass production commercial processes) to make sure participants will not be hampered by
-            limitations in the open EDA tools.
-          </li>
-          <li>
             Opportunities of accessing advanced process technologies through industry partnership. During our initial discussions on industry sponsorship, we found there are
             several companies interested in joining the competition by providing tapeout opportunities along with their private (full-mask) wafer projects regularly on more
             advanced technologies, such as 22nm bulk and possible 12/16nm FinFET process. By working with industry partners, there is a good chance we can see innovative ideas with
@@ -102,23 +95,24 @@
         <p>
           Given limited silicon tapeout resources (e.g. silicon manufacturing costs, system hardware resources and commercial ASIC EDA licenses, in particular backend and sign-off
           tools), we need a pre-qualifying stage to select technical qualified teams for the final tapeout. At this stage we only perform a mock tapeout using open-source EDA tools
-          and Skywater 130nm OpenPDK, which are available to everyone globally with little comercial legal license complications. Unfortunately, at this moment open EDA tools have
-          limited system verilog language features and may not support the full design flow (from RTL to GDS) for complex designs. <br />We will make all performance and function
-          requirements along with benchmarks publicly available to all design teams. No secret test program will be announced at this stage. Each team should submit their
-          open-source designs to github (or similar) publicly and do a mock tape-out all the way to GDS. We will provide cloud computing resources for each team to accommodate
-          OpenEDA computation requirements. <br />We also install a design space exploration framework on Google Cloud and Volcano Engine cloud computing platforms to assist design
-          space exploration for each design team. In addition, we will align the end of the group stage along with the OpenMPW tapeout schedule in 2023. Each design team has the
-          option to fab their design with optional OpenMPW shuttles on their own even without being selected for the final stage chip fabrication.
+          and Skywater 130nm OpenPDK, which are available to everyone globally under open source licenses. <br />We will make all performance and function requirements along with
+          benchmarks publicly available to all design teams. No secret test program will be announced at this stage. Each team should submit their open-source designs to github (or
+          similar) publicly and do a mock tape-out all the way to GDS. We will provide cloud computing resources for each team to accommodate OpenEDA computation requirements.
+          <br />We also install a design space exploration framework on Google Cloud and Volcano Engine cloud computing platforms to assist design space exploration for each design
+          team. In addition, we will align the end of the group stage along with the OpenMPW tapeout schedule in 2023.
+          <strong>
+            design team has the option to fab their design with optional OpenMPW shuttles on their own even without being selected for the final stage chip fabrication.</strong
+          >
         </p>
         <h6 id="section-4-2">4.2 Final Stage (extra 3-month design time + silicon manufacturing time)</h6>
         <p>
-          Judged by end-to-end application performance and completeness of functionalities, all teams qualified after the group stage will have a chance to fab a real chip. We
-          allow the usage of commercial EDA tools in order to get access to production quality process technologies such as those from TSMC. To complete the full design cycle, we
-          will also cover areas where the Open EDA flow falls short, for example more sophisticated power and thermal analysis. We will help selected teams with EDA access and PDK
-          NDAs through our tapeout sponsor.<br />We will make all We will announce secret programs and will give another 3 months window for each team to tweak their designs before
-          the tape-out shuttle. We will provide the standard testboard for all teams to bring-up their silicon. The bring-up time will be 6 weeks before the final presentation. We
-          will host a two-day judge and presentation event. Each team will help the judge to reproduce their results on their final silicon. All designs should still be open
-          source, and should be reproducible by everyone.
+          Judged by end-to-end application performance and completeness of functionalities,
+          <strong> teams qualified after the group stage will have a chance to fab a real chip on a modern process node.</strong> We allow the usage of commercial EDA tools in
+          order to get access to production quality process technologies such as those from TSMC. To complete the full design cycle, we will also cover more sophisticated power and
+          thermal analysis using proprietary tools. We will help selected teams with EDA access and PDK NDAs through our tapeout sponsor.<br />We will make all We will announce
+          secret programs and will give another 3 months window for each team to tweak their designs before the tape-out shuttle. We will provide the standard testboard for all
+          teams to bring-up their silicon. The bring-up time will be 6 weeks before the final presentation. We will host a two-day judge and presentation event. Each team will help
+          the judge to reproduce their results on their final silicon. All designs should still be open source, and should be reproducible by everyone.
         </p>
         <h5 id="section-5">5 Awards</h5>
         <p>
