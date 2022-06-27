@@ -4,6 +4,13 @@ Change history of RIOS-Lab Contest frontend projec.
 
 ## [Unreleased]
 
+## [0.3.2] - 2022-06-27
+
+### Changed
+
+- Homepage default banner
+- Removed Herobrine
+
 ## [0.3.1] - 2022-06-21
 
 - 夏至日更新
