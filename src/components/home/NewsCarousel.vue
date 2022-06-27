@@ -4,7 +4,9 @@
       <b-carousel-slide v-for="msg in news" :key="msg.id">
         <template #img>
           <a :href="msg.link">
-            <div class="carousel-img" :style="'background: url(' + msg.img + '); background-size: cover; background-position: center'"></div>
+            <div class="carousel-img" :style="'background: url(' + msg.img + '); background-size: cover; background-position: center'">
+              <h2 class="news-title">{{ msg.title }}</h2>
+            </div>
           </a>
         </template>
       </b-carousel-slide>
@@ -20,7 +22,8 @@ export default {
       news: [
         {
           id: 0,
-          img: require('@/assets/temp/banner4.png'),
+          img: require('@/assets/banner/banner.png'),
+          title: 'Global RISC-V Design Challenge with REAL Tapeout',
           link: '/about'
         }
       ]
@@ -49,5 +52,14 @@ export default {
 <style lang="scss" scoped>
 .carousel-img {
   height: 32rem;
+}
+
+.news-title {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 3rem;
+  text-shadow: 2px 2px 1px #495057, 0 0 0.2rem #fff;
 }
 </style>
